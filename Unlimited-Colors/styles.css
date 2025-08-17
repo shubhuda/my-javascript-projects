@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#main-container {
+    width: 80%;
+    height: 80%;
+    border: 3px solid #24b4fb;
+    text-align: center;
+}
+ol {
+    list-style-position: inside;
+}
+button {
+    width: 120px;
+    height: 60px;
+    color: aliceblue;
+    border: 2px solid #24b4fb;
+    background-color: #24b4fb;
+    border-radius: 0.9em;
+    cursor: pointer;
+    padding: 0.8em 1.2em 0.8em 1em;
+    transition: all ease-in-out 0.2s;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px;
+}
